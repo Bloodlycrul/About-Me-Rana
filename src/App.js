@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Blog from './Pages/Blog'
-import GuestBook from './Pages/GuestBook'
+import Contact from './Pages/Contact'
 
 import {Routes, Route} from 'react-router-dom'
 
@@ -22,7 +22,7 @@ function App() {
     <Route path='/' element={<Home />} />
     <Route path='/about' element={<About />} />
     <Route path='/blog' element={<Blog />} />
-    <Route path='/guestbook' element={<GuestBook />} />
+    <Route path='/contact' element={<Contact />} />
 
     </Routes>
 
