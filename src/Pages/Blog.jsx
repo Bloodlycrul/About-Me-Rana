@@ -1,10 +1,17 @@
+import BlogDetails from "../Blogs/Details";
+import BlogRender from "../Components/BlogRender";
 
 function Blog(){
     return (
         <>
         <div className="margin-top">
-        <h1>I am Blog Page</h1>
-        <p>Thos os the aboafh;</p>
+        <h1>Blog</h1>
+        {BlogDetails.map((e)=>{
+            return <BlogRender
+            title = {e.title}
+            view = {e.view}
+            />
+        })}
         </div>
         </>
 
