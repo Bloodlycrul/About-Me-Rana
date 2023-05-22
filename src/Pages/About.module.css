@@ -29,8 +29,16 @@ body {
 .display{
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
+.display button{
+  cursor: pointer;
+}
+
+.cursor{
+  cursor: pointer;
+}
 
 
 

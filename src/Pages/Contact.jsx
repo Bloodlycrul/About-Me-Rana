@@ -9,6 +9,19 @@ function Contact() {
   function submit(event) {
     event.preventDefault();
 
+    if(name.current.value === "" ){
+        alert("please fill the name")
+    }else if(message.current.value === ""){
+        alert("please fill the message")
+    }else if( email.current.value === ""  ){
+        alert("please fill the email")
+    }else if(phone.current.value === ""){
+        alert("please fill the phone")
+    }
+    
+    
+    else{
+
     const nameRef = name.current.value;
     const emailRef = email.current.value;
     const phoneRef = phone.current.value;
@@ -37,6 +50,7 @@ function Contact() {
       .catch((error) => {
         console.error(error);
       });
+    }
   }
 
   return (

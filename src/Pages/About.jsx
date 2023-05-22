@@ -58,7 +58,7 @@ function About() {
 
         <div className={style.display}>
           <Button svg={twitterCode} name="Twitter" />
-          <Button svg={github} name="Github" />
+         <a className = 'cursor' href="https://github.com/Bloodlycrul" ><Button className={style.cursor} svg={github} name="Github" /></a> 
           <Button svg={youtube} name="Youtube" />
         </div>
       </div>

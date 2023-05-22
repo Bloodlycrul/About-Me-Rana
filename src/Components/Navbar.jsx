@@ -10,7 +10,8 @@ function Navbar(){
         <Link to='/'>home</Link>
         <Link to='/about'>about</Link>
         <Link to='/blog'>blog</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link to='/contact'>contact</Link>
+        <Link to='/totalemail'>email</Link>
         
         </div>
 
