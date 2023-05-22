@@ -57,3 +57,24 @@ display: flex;
 .cursor{
   cursor: pointer;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+
+  body{
+    overflow: hidden;
+  }
+  .margin-top{
+      margin: 0;
+      width: auto;
+      display: block;
+  }
+
+  .container{
+    margin: 0;
+    width: 370px;
+    display: block;
+    height: auto;
+  }
+}
